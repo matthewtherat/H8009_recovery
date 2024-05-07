@@ -52,7 +52,7 @@ deploy:
   file: $HOME/twrp/*.img
   on:
     tags: false
-    repo: $$USERNAME$$/$$REPO_URL$$ # Optional: If you want to deploy on different repository
+    repo: matthewtherat/H8009_recovery # Optional: If you want to deploy on different repository
     branch: master # Optional: Needs to be exact as the config branch
 branches:
   only:
